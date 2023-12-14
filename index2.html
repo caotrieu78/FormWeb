@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/07/logo-alt.png"
+        type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <title>Modern Login Page | AsmrProg</title>
+</head>
+
+<body class="contactformpage">
+    <div class="header">
+       
+            <div class=" logo">
+                <a href="./index.html">
+                <img src="https://goyacdn.everthemes.com/demo-fashion/wp-content/uploads/sites/3/2019/07/logo-light.png"
+                    class="header__navbar-brand-logo" alt=""></a>
+            </div>
+        
+          
+       
+        
+       
+    </div>
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
+    <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted){alert('Bạn đã gửi thông tin thành công');}"
+        style="display: none;"></iframe>
+    <!--Cách 2: HIỂN THỊ THÔNG BÁO DẠNG LINK-->
+    <div class=" wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+        <script type="text/javascript">
+            var submitted = false;
+        </script>
+        <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted){window.location='thongbao.html';}"
+            style="display: none;"></iframe>
+
+        <div class="container" id="container">
+            <div class="form-container sign-up">
+
+
+
+                <form onsubmit="submitted=true;" target="hidden_iframe" class="text-left" role="form" id="ss-form"
+                    method="GET"
+                    action="https://script.google.com/macros/s/AKfycbzcTFScNjIXJJh4u3My7X7Nm-ZTfZtYsVAFAIRFDHMKkge_BwEHwy60EpOF-XO4tdtOHQ/exec">
+                    <h1>Create Account</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input title="" required="" class="form-control" placeholder=" Name... " dir="auto" id="name"
+                        value="" name="name" type="text">
+                    <input title="" required="" class="form-control" placeholder=" Gmail ... " dir="auto" id="gmail"
+                        value="" name="gmail" type="text">
+                    <input title="" required="" class="form-control" placeholder=" Password ... " dir="auto" id="password"
+                        value="" name="password" type="text">
+
+
+                    <button class="btn btn-primary dangkybt" id="ss-submit" value="" name="submit" type="submit">Sign
+                        Up</button>
+                </form>
+
+            </div>
+            <div class="form-container sign-in">
+                <form onsubmit="submitted=true;" target="hidden_iframe" class="text-left" role="form" id="ss-form"
+                    method="GET" action="">
+                    <h1>Sign In</h1>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email password</span>
+                    <input title="" required="" class="form-control" placeholder=" Gmail... " dir="auto" id="hoten"
+                        value="" name="hoten" type="text">
+
+                    < <input title="" required="" class="form-control" placeholder=" Password..." dir="auto" id="hoten"
+                        value="" name="hoten" type="text">
+                        <a href="#">Forget Your Password?</a>
+                        <button>Sign In</button>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Welcome Back!</h1>
+                        <p>Enter your personal details to use all of site features</p>
+                        <button class="hidden" id="login">Sign In</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Hello, Friend!</h1>
+                        <p>Register with your personal details to use all of site features</p>
+                        <button class="hidden" id="register">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <script src="./assets/js/js.js"></script>
+</body>
+
+</html>
